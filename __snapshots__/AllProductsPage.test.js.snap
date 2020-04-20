@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllProductsPage Snapshot renders correctly 1`] = `
+<AllProductsPage>
+  <div
+    style={
+      Object {
+        "marginLeft": 10,
+      }
+    }
+  >
+    <h1>
+      Products List
+    </h1>
+    <ProductsList
+      data={
+        Array [
+          Object {
+            "Price": 15999,
+            "Quantity": 2,
+            "id": 1,
+            "productName": "Nokia 6.1 Plus",
+          },
+          Object {
+            "Price": 14999,
+            "Quantity": 1,
+            "id": 2,
+            "productName": "Realme 6",
+          },
+          Object {
+            "Price": 64000,
+            "Quantity": 1,
+            "id": 3,
+            "productName": "Lenovo L340 Gaming",
+          },
+        ]
+      }
+    >
+      <table
+        border="1"
+      >
+        <thead>
+          <tr
+            key="head"
+          >
+            <th>
+              ID
+            </th>
+            <th>
+              Product Name
+            </th>
+            <th>
+              Quantity
+            </th>
+            <th>
+              Price
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <Product
+            id={1}
+            key="0"
+            name="Nokia 6.1 Plus"
+            price={15999}
+            quantity={2}
+          >
+            <tr
+              key="1"
+            >
+              <td>
+                1
+              </td>
+              <td>
+                Nokia 6.1 Plus
+              </td>
+              <td>
+                2
+              </td>
+              <td>
+                Rs. 
+                15999
+              </td>
+            </tr>
+          </Product>
+          <Product
+            id={2}
+            key="1"
+            name="Realme 6"
+            price={14999}
+            quantity={1}
+          >
+            <tr
+              key="2"
+            >
+              <td>
+                2
+              </td>
+              <td>
+                Realme 6
+              </td>
+              <td>
+                1
+              </td>
+              <td>
+                Rs. 
+                14999
+              </td>
+            </tr>
+          </Product>
+          <Product
+            id={3}
+            key="2"
+            name="Lenovo L340 Gaming"
+            price={64000}
+            quantity={1}
+          >
+            <tr
+              key="3"
+            >
+              <td>
+                3
+              </td>
+              <td>
+                Lenovo L340 Gaming
+              </td>
+              <td>
+                1
+              </td>
+              <td>
+                Rs. 
+                64000
+              </td>
+            </tr>
+          </Product>
+        </tbody>
+      </table>
+    </ProductsList>
+  </div>
+</AllProductsPage>
+`;
